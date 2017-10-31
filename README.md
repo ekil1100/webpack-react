@@ -2,4 +2,5 @@
 
 ## Stage one
 
+- setup environment
 - choose proper UI frame
