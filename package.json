@@ -1,0 +1,21 @@
+{
+  "name": "Like-page",
+  "version": "1.0.0",
+  "description": "Like's website",
+  "main": "index.js",
+  "repository": "https://github.com/lastingman/Lastingman.github.io.git",
+  "author": "Like Zheng <keithleaves@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.8.1"
+  }
+}
