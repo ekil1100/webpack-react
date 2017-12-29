@@ -1,11 +1,12 @@
 const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
 
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
   },
 
@@ -20,20 +21,11 @@ module.exports = {
   },
 
   plugins: [
+    new CleanWebpackPlugin(['docs']),
     new HtmlWebpackPlugin({
       inject: true,
       template: './src/index.html',
-    }),
+    })
   ],
-
-  devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
-    compress: true,
-    hot: true,
-    inline: true,
-    host: 'localhost',
-    port: 8080,
-    watchContentBase: false,
-  }
 
 };
