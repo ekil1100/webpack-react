@@ -1,4 +1,6 @@
 # Like's personal website
+[![](https://img.shields.io/badge/Like-1.0-blue.svg)](https://lastingman.github.io/lastsite/)
+
 ## Stage one
-- setup environment
-- choose proper UI frame
+[x] setup environment
+[x] choose proper UI frame
