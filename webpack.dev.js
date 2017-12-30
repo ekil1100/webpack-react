@@ -17,12 +17,6 @@ module.exports = merge(common, {
         },
         'postcss-loader'
       ]
-    }, {
-      test: /\.(js|jsx|mjs)$/,
-      include: [
-        path.resolve(__dirname, 'src')
-      ],
-      loader: 'babel-loader',
     }]
   },
 

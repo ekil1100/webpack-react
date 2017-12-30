@@ -10,6 +10,16 @@ module.exports = {
     filename: 'bundle.js',
   },
 
+  module: {
+    rules: [{
+      test: /\.(js|jsx|mjs)$/,
+      include: [
+        path.resolve(__dirname, 'src')
+      ],
+      use: 'babel-loader',
+    }]
+  },
+
   plugins: [
     new CleanWebpackPlugin(['docs']),
     new HtmlWebpackPlugin({
