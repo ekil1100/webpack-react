@@ -1,0 +1,10 @@
+{
+  "ignore": [
+    "order-alphabetical",
+    "universal-selector"
+  ],
+  "warnings": [
+  ],
+  "errors": [
+  ]
+}
