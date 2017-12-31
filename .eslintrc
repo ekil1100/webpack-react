@@ -18,6 +18,8 @@
   "globals": {
     jQuery: true,
     $: true,
+    React: true,
+    ReactDOM: true,
   },
   "parser": "babel-eslint",
   "plugins": [
