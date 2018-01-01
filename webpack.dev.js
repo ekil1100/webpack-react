@@ -8,11 +8,13 @@ module.exports = merge(common, {
   module: {
     rules: [{
       test: /\.css$/,
-      use: ['style-loader',
+      use: [
+        'style-loader',
         {
           loader: 'css-loader',
           options: {
-            importLoaders: 1
+            sourceMap: true,
+            '-autoprefixer': true //禁用autoprefixer以确保为兼容性而废弃的css不被删除
           }
         },
         'postcss-loader'
