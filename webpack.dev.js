@@ -17,7 +17,7 @@ module.exports = merge(common, {
             '-autoprefixer': true //禁用autoprefixer以确保为兼容性而废弃的css不被删除
           }
         },
-        'postcss-loader',
+        'postcss-loader'
       ]
     }]
   },
