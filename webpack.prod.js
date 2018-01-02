@@ -15,6 +15,7 @@ module.exports = merge(common, {
           loader: 'css-loader',
           options: {
             sourceMap: true,
+            minimize: true,
             '-autoprefixer': true //禁用autoprefixer以确保为兼容性而废弃的css不被删除
           }
         },
