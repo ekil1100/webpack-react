@@ -28,7 +28,7 @@ module.exports = merge(common, {
     hot: true,
     inline: true,
     host: 'localhost',
-    port: 8080,
+    port: 3000,
     watchContentBase: false,
   }
 });

@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -324,9 +324,10 @@ figure {
 }
 .fh5co-feature .fh5co-icon {
   float: left;
-  width: 10%;
+  width: 30%;
   display: block;
   margin-top: 5px;
+  text-align: center;
 }
 .fh5co-feature .fh5co-icon i {
   color: #17e7a4;
@@ -334,7 +335,7 @@ figure {
 }
 .fh5co-feature .fh5co-text {
   float: right;
-  width: 82%;
+  width: 70%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-feature .fh5co-text {

@@ -2,6 +2,7 @@ import '../css/animate.css';
 import '../css/icomoon.css';
 import '../css/bootstrap.css';
 import '../css/style.css';
+import '../css/index.css';
 
 
 import './jquery.min';
@@ -14,4 +15,4 @@ import './main';
 
 import '../images/bg_img.jpg';
 import '../images/icon.jpg';
-import '../images/profile_img.png';
+import '../images/profile_img.jpg';
